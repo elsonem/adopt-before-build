@@ -15,7 +15,7 @@
 
 > La IA hizo que crear software fuera casi gratis. Mantener software no se volvió gratis.
 
-Cualquier gestor ya puede pedirle a un agente de IA que "construya" una herramienta interna — un control de horas extra, un catálogo de proveedores, un informe de gastos — y tener algo funcionando en minutos. Seis meses después, la empresa mantiene una docena de aplicaciones aisladas: stacks diferentes, bases de datos diferentes, autenticación diferente, sin documentación, sin dueño claro.
+Cualquier gestor ya puede pedirle a un agente de IA que "construya" una herramienta interna — un control de horas extra, un catálogo de proveedores, una wiki interna — y tener algo funcionando en minutos. Seis meses después, la empresa mantiene una docena de aplicaciones aisladas: stacks diferentes, bases de datos diferentes, autenticación diferente, sin documentación, sin dueño claro.
 
 Cada una de ellas tiene un costo que el vibe-coding no hace desaparecer:
 

@@ -15,7 +15,7 @@
 
 > AI made software creation almost free. Software maintenance didn't become free.
 
-Any manager can now ask an AI agent to "build" an internal tool — a time-off tracker, a supplier catalog, an expense report — and get something working in minutes. Six months later, the company is maintaining a dozen one-off applications: different stacks, different databases, different authentication, no documentation, no clear owner.
+Any manager can now ask an AI agent to "build" an internal tool — a time-off tracker, a supplier catalog, an internal wiki — and get something working in minutes. Six months later, the company is maintaining a dozen one-off applications: different stacks, different databases, different authentication, no documentation, no clear owner.
 
 Every one of those carries a cost vibe-coding doesn't make go away:
 
