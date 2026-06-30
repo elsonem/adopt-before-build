@@ -7,7 +7,7 @@
 ---
 
 🌐 **Lee en tu idioma:**
-[🇧🇷 Português](README.pt-BR.md) · [🇺🇸 English](README.md) · 🇪🇸 Español
+[🇧🇷 Português](README.md) · [🇺🇸 English](README.en.md) · 🇪🇸 Español
 
 ---
 
@@ -158,8 +158,8 @@ Antes de adoptar una herramienta de este catálogo, pregunta:
 
 ```
 /
-├── README.md              # Versión en inglés
-├── README.pt-BR.md        # Versión en portugués
+├── README.md              # Versión en portugués (predeterminada)
+├── README.en.md           # Versión en inglés
 ├── README.es.md           # Este archivo (Español)
 ├── catalog/
 │   ├── by-department.md   # Catálogo completo por área

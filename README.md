@@ -1,199 +1,199 @@
 # 🗂️ Adopt Before Build
 
-**Stop building what already exists.**
+**Pare de construir o que já existe.**
 
-> A decision framework and open-source catalog for companies scaling AI-assisted development — so teams adopt proven software instead of building (and maintaining) yet another internal tool from scratch.
-
----
-
-🌐 **Read in your language:**
-[🇧🇷 Português](README.pt-BR.md) · 🇺🇸 English · [🇪🇸 Español](README.es.md)
+> Um framework de decisão e catálogo open-source para empresas escalando desenvolvimento assistido por IA — pra que os times adotem software consolidado em vez de construir (e manter) mais uma ferramenta interna do zero.
 
 ---
 
-## The Problem
-
-> AI made software creation almost free. Software maintenance didn't become free.
-
-Any manager can now ask an AI agent to "build" an internal tool — a time-off tracker, a supplier catalog, an expense report — and get something working in minutes. Six months later, the company is maintaining a dozen one-off applications: different stacks, different databases, different authentication, no documentation, no clear owner.
-
-Every one of those carries a cost vibe-coding doesn't make go away:
-
-- Authentication and access control
-- Security patches and updates
-- Monitoring and backups
-- Compliance and documentation
-- Long-term ownership
-
-There is a third option most teams skip before asking an AI to build yet another internal system from scratch: **adopt a mature, free, open-source tool that already solves that exact problem.**
-
-This catalog — and the reusable AI-agent context that ships with it — exist to make that third option the default, not an afterthought.
+🌐 **Leia no seu idioma:**
+🇧🇷 Português · [🇺🇸 English](README.en.md) · [🇪🇸 Español](README.es.md)
 
 ---
 
-## Built for AI-Assisted Building (Vibe-Coding)
+## O Problema
 
-This catalog isn't only for humans browsing GitHub — it's meant to be consulted by an AI coding agent before it builds something from scratch.
+> IA tornou a criação de software quase gratuita. A manutenção de software não ficou gratuita.
 
-More companies are giving managers AI tools to build their own internal software ("vibe-coding"). Left on its own, an AI agent's default behavior is to write new code for whatever it's asked — even when a mature, free tool already solves the problem. This catalog exists to be that guardrail.
+Qualquer gestor já pode pedir pra um agente de IA "construir" uma ferramenta interna — um controle de horas extras, um catálogo de fornecedores, um relatório de despesas — e ter algo funcionando em minutos. Seis meses depois, a empresa está mantendo uma dezena de aplicações isoladas: stacks diferentes, bancos diferentes, autenticação diferente, sem documentação, sem dono claro.
 
-→ [`prompts/CLAUDE.md`](prompts/CLAUDE.md) — a reusable context block you drop into your own project (or your agent's custom instructions) so it checks this catalog before writing custom code for a common business need.
+Cada uma delas carrega um custo que o vibe-coding não faz desaparecer:
 
----
+- Autenticação e controle de acesso
+- Patches de segurança e atualizações
+- Monitoramento e backups
+- Compliance e documentação
+- Propriedade/manutenção de longo prazo
 
-## Philosophy
+Existe uma terceira opção que a maioria dos times pula antes de pedir pra uma IA construir mais um sistema interno do zero: **adotar uma ferramenta open-source madura que já resolve exatamente aquele problema.**
 
-> **Adopt before you build. Build only what doesn't exist.**
-
-This is not just a list of tools. It is a framework for deciding *when* to adopt versus *when* to build. The catalog is organized by business area — not by technology — so that a non-technical manager can find what they need without knowing what to search for.
-
-Every tool listed here meets four criteria:
-
-1. **Free for internal use** — license explicitly allows self-hosted, non-commercial internal deployment
-2. **Proven and maintained** — active community, not abandoned
-3. **Operable by non-technical users** — a business user can configure and use it without writing code
-4. **Production-ready** — actively deployed in real companies, not an experimental or alpha-stage project
+Este catálogo — e o contexto reutilizável para agentes de IA que vem junto — existem pra tornar essa terceira opção o padrão, não uma reflexão tardia.
 
 ---
 
-## How to Use This Framework
+## Feito para Construção Assistida por IA (Vibe-Coding)
 
-**Starting AI-assisted development in your company?**
-Drop [`prompts/CLAUDE.md`](prompts/CLAUDE.md) into your AI agent as reusable context (Claude Code, Cursor, custom GPT, etc.) so it checks this catalog before writing custom code — before the sprawl starts.
+Este catálogo não é só para humanos navegando no GitHub — ele foi pensado para ser consultado por um agente de IA antes de construir algo do zero.
 
-**Already have AI-generated tools scattered across departments?**
-Use the catalog below to baseline your internal stack: pick one tool per recurring need, retire the one-off scripts and orphaned prototypes, and centralize on something maintained.
+Cada vez mais empresas estão colocando ferramentas de IA na mão de gestores para que eles construam seus próprios sistemas internos ("vibe-coding"). Por padrão, o comportamento de um agente de IA é escrever código novo pra qualquer coisa que peçam — mesmo quando uma ferramenta madura e gratuita já resolve o problema. Este catálogo existe para ser essa trava de segurança.
+
+→ [`prompts/CLAUDE.pt-BR.md`](prompts/CLAUDE.pt-BR.md) — um contexto reutilizável que você cola no seu próprio projeto (ou nas instruções customizadas do seu agente) pra que ele consulte este catálogo antes de escrever código customizado para uma necessidade comum de negócio.
 
 ---
 
-## Catalog
+## Filosofia
 
-| # | Department | Tool | License | Purpose |
+> **Adote antes de construir. Construa apenas o que não existe.**
+
+Este não é apenas uma lista de ferramentas. É um framework para decidir *quando* adotar versus *quando* construir. O catálogo é organizado por área de negócio — não por tecnologia — para que um gestor não-técnico encontre o que precisa sem saber o que pesquisar.
+
+Cada ferramenta listada aqui atende a quatro critérios:
+
+1. **Gratuita para uso interno** — a licença permite explicitamente deploy self-hosted para uso interno não-comercial
+2. **Consolidada e mantida** — comunidade ativa, não abandonada
+3. **Operável por usuários não-técnicos** — um usuário de negócio consegue configurar e usar sem escrever código
+4. **Pronta para produção** — em uso ativo em empresas reais, não um projeto experimental ou em fase alpha
+
+---
+
+## Como Usar Este Framework
+
+**Está começando desenvolvimento assistido por IA na sua empresa?**
+Cole o [`prompts/CLAUDE.pt-BR.md`](prompts/CLAUDE.pt-BR.md) como contexto no seu agente de IA (Claude Code, Cursor, GPT customizado, etc.) pra que ele consulte este catálogo antes de escrever código customizado — antes da bagunça começar.
+
+**Já tem ferramentas geradas por IA espalhadas pelos departamentos?**
+Use o catálogo abaixo pra padronizar sua stack interna: escolha uma ferramenta por necessidade recorrente, aposente os scripts avulsos e protótipos órfãos, e centralize em algo mantido.
+
+---
+
+## Catálogo
+
+| # | Área | Ferramenta | Licença | Propósito |
 |---|---|---|---|---|
-| 1 | Finance | [Akaunting](https://akaunting.com) | AGPLv3 | Accounts payable/receivable, invoicing, cash flow |
-| 1 | Finance | [Odoo Community](https://odoo.com) | LGPLv3 | Budget planning, expense management, accounting |
-| 2 | Human Resources | [Horilla](https://horilla.com) | LGPLv3 | Time tracking, payroll, overtime, leave management |
-| 2 | Human Resources | [OrangeHRM Starter](https://orangehrm.com) | GPLv2 | Employee database, PTO, recruitment (ATS) |
-| 2 | Human Resources | [Jorani](https://jorani.org) | Apache 2.0 | Leave and overtime approval workflows |
-| 3 | Sales / CRM | [SuiteCRM](https://suitecrm.com) | AGPLv3 | Full CRM — leads, pipeline, contact history |
-| 3 | Sales / CRM | [Docuseal](https://docuseal.com) | AGPLv3 | Electronic signature for contracts and proposals |
-| 3 | Sales / CRM | [Cal.com](https://cal.com) | AGPLv3 | Meeting scheduling — Calendly alternative |
-| 4 | Marketing | [Mautic](https://mautic.org) | AGPLv3 | Email marketing, lead capture — HubSpot alternative |
-| 4 | Marketing | [LimeSurvey](https://limesurvey.org) | GPLv2 | Surveys, NPS, internal feedback forms |
-| 5 | Operations | [Snipe-IT](https://snipeitapp.com) | AGPLv3 | Asset inventory — equipment, licenses, locations |
-| 5 | Operations | [InvenTree](https://inventree.org) | MIT | Parts catalog linked to suppliers and stock levels |
-| 5 | Operations | [OpenBoxes](https://openboxes.com) | EPLv1 | Multi-location stock management with supplier tracking |
-| 6 | Administration | [Zammad](https://zammad.org) | GPLv3 | Internal ticketing — facilities, admin requests |
-| 6 | Administration | [Outline](https://getoutline.com) | BSL 1.1 | Company wiki — policies, manuals, documentation |
-| 7 | Project Management | [Plane](https://plane.so) | AGPLv3 | Issues, roadmaps, sprints — Linear/Jira alternative |
-| 7 | Project Management | [OpenProject](https://openproject.org) | GPLv3 | Full PMO — Gantt, WBS, budgets, risk management |
-| 8 | IT / Technology | [GLPI](https://glpi-project.org) | GPLv2 | IT asset management aligned with ITIL |
-| 8 | IT / Technology | [Wazuh](https://wazuh.com) | GPLv2 | Security monitoring, threat detection, SIEM |
-| 9 | Customer Support | [Zammad](https://zammad.org) | GPLv3 | Help desk, tickets, SLA, knowledge base |
-| 10 | Product Management | [Plane](https://plane.so) | AGPLv3 | Product roadmap, backlog, feature prioritization |
-| 10 | Product Management | [Appsmith](https://appsmith.com) | Apache 2.0 | Internal tools builder — forms, dashboards, admin panels |
-| 11 | Training & Dev (L&D) | [Moodle](https://moodle.org) | GPLv3 | LMS — courses, quizzes, certificates, learning paths |
-| 11 | Training & Dev (L&D) | [Forma LMS](https://formalms.org) | GPLv2 | Corporate-focused LMS — simpler than Moodle |
-| 12 | Internal Comms | [HumHub](https://humhub.com) | AGPLv3 | Internal social intranet — news feed, groups, profiles |
-| 13 | Legal / Compliance | [Probo](https://github.com/getprobo/probo) | AGPLv3 | GRC — risk, controls, ISO 27001, GDPR/LGPD |
-| 13 | Legal / Compliance | [SimpleRisk](https://simplerisk.com) | MPLv2 | Risk identification, assessment, and treatment |
-| 14 | Corporate Security | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | AGPLv3 | Self-hosted password manager — Bitwarden compatible |
-| 17 | BI / Analytics | [Metabase](https://metabase.com) | BSL 1.1 | Self-service BI — guided questions, no SQL required |
-| 17 | BI / Analytics | [Apache Superset](https://superset.apache.org) | Apache 2.0 | Advanced dashboards and data exploration |
-| 19 | R&D / Innovation | [Gitea](https://gitea.io) | MIT | Lightweight self-hosted Git — code and docs versioning |
+| 1 | Financeiro | [Akaunting](https://akaunting.com) | AGPLv3 | Contas a pagar/receber, faturamento, fluxo de caixa |
+| 1 | Financeiro | [Odoo Community](https://odoo.com) | LGPLv3 | Orçamento, aprovação de despesas, contabilidade |
+| 2 | Recursos Humanos | [Horilla](https://horilla.com) | LGPLv3 | Ponto, folha, horas extras, férias e licenças |
+| 2 | Recursos Humanos | [OrangeHRM Starter](https://orangehrm.com) | GPLv2 | Banco de dados de colaboradores, PTO, recrutamento (ATS) |
+| 2 | Recursos Humanos | [Jorani](https://jorani.org) | Apache 2.0 | Fluxo de aprovação de férias e horas extras |
+| 3 | Comercial / CRM | [SuiteCRM](https://suitecrm.com) | AGPLv3 | CRM completo — leads, pipeline, histórico de contato |
+| 3 | Comercial / CRM | [Docuseal](https://docuseal.com) | AGPLv3 | Assinatura eletrônica de contratos e propostas |
+| 3 | Comercial / CRM | [Cal.com](https://cal.com) | AGPLv3 | Agendamento de reuniões — alternativa ao Calendly |
+| 4 | Marketing | [Mautic](https://mautic.org) | AGPLv3 | E-mail marketing, captura de leads — alternativa ao RD Station |
+| 4 | Marketing | [LimeSurvey](https://limesurvey.org) | GPLv2 | Pesquisas, NPS, formulários internos e externos |
+| 5 | Operações | [Snipe-IT](https://snipeitapp.com) | AGPLv3 | Inventário de ativos — equipamentos, licenças, locais |
+| 5 | Operações | [InvenTree](https://inventree.org) | MIT | Catálogo de peças vinculado a fornecedores e estoque |
+| 5 | Operações | [OpenBoxes](https://openboxes.com) | EPLv1 | Gestão de estoque multi-local com rastreio de fornecedores |
+| 6 | Administrativo | [Zammad](https://zammad.org) | GPLv3 | Chamados internos — facilities, solicitações administrativas |
+| 6 | Administrativo | [Outline](https://getoutline.com) | BSL 1.1 | Wiki interna — políticas, manuais, documentação |
+| 7 | Projetos / PMO | [Plane](https://plane.so) | AGPLv3 | Issues, roadmaps, sprints — alternativa ao Linear/Jira |
+| 7 | Projetos / PMO | [OpenProject](https://openproject.org) | GPLv3 | PMO completo — Gantt, WBS, orçamentos, gestão de riscos |
+| 8 | TI / Tecnologia | [GLPI](https://glpi-project.org) | GPLv2 | Gestão de ativos de TI alinhada ao ITIL |
+| 8 | TI / Tecnologia | [Wazuh](https://wazuh.com) | GPLv2 | Monitoramento de segurança, detecção de ameaças, SIEM |
+| 9 | Atendimento | [Zammad](https://zammad.org) | GPLv3 | Help desk, tickets, SLA, base de conhecimento |
+| 10 | Produto (PM) | [Plane](https://plane.so) | AGPLv3 | Roadmap de produto, backlog, priorização de features |
+| 10 | Produto (PM) | [Appsmith](https://appsmith.com) | Apache 2.0 | Builder de ferramentas internas — formulários, dashboards |
+| 11 | Educação Corporativa | [Moodle](https://moodle.org) | GPLv3 | LMS — cursos, quizzes, certificados, trilhas de aprendizagem |
+| 11 | Educação Corporativa | [Forma LMS](https://formalms.org) | GPLv2 | LMS focado em treinamento corporativo — mais simples que Moodle |
+| 12 | Comunicação Interna | [HumHub](https://humhub.com) | AGPLv3 | Intranet social — feed de notícias, grupos, perfis |
+| 13 | Jurídico / Compliance | [Probo](https://github.com/getprobo/probo) | AGPLv3 | GRC — riscos, controles, ISO 27001, LGPD/GDPR |
+| 13 | Jurídico / Compliance | [SimpleRisk](https://simplerisk.com) | MPLv2 | Identificação, avaliação e tratamento de riscos |
+| 14 | Segurança Corporativa | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | AGPLv3 | Cofre de senhas self-hosted — compatível com Bitwarden |
+| 17 | BI / Analytics | [Metabase](https://metabase.com) | BSL 1.1 | BI self-service — perguntas guiadas, sem precisar de SQL |
+| 17 | BI / Analytics | [Apache Superset](https://superset.apache.org) | Apache 2.0 | Dashboards avançados e exploração de dados |
+| 19 | P&D / Inovação | [Gitea](https://gitea.io) | MIT | Git self-hosted leve — versionamento de código e documentação |
 
-> **⚠️ Areas with limited OSS coverage (15, 16, 18, 20 — intentionally omitted from the table above):** Occupational Health & Safety (SST/EHS), Advanced Finance / M&A, ESG reporting, and Government Affairs. For these, a composed approach using NocoDB + n8n + Metabase is recommended until the OSS ecosystem matures. The numbering above follows the full 20-area catalog in [catalog/by-department.md](catalog/by-department.md).
+> **⚠️ Áreas com cobertura OSS limitada (15, 16, 18, 20 — omitidas da tabela acima de propósito):** Saúde e Segurança do Trabalho (SST/EHS), Financeiro Avançado / M&A, relatórios ESG e Relações Institucionais. Para essas áreas, uma solução composta com NocoDB + n8n + Metabase é recomendada até o ecossistema OSS amadurecer. A numeração acima segue o catálogo completo de 20 áreas em [catalog/by-department.md](catalog/by-department.md).
 
 ---
 
-## License Quick Reference
+## Referência Rápida de Licenças
 
-| License | Free for internal use? | Key obligation |
+| Licença | Uso interno gratuito? | Obrigação principal |
 |---|---|---|
-| MIT | ✅ Yes | Keep copyright notice |
-| Apache 2.0 | ✅ Yes | Keep attribution |
-| GPLv2 / GPLv3 | ✅ Yes | Distribute source if you redistribute the software |
-| AGPLv3 | ✅ Yes | Distribute source if you expose it as a network service to others |
-| LGPLv3 | ✅ Yes | Modified library files must be released; your own code can stay private |
-| MPLv2 | ✅ Yes | Modified files must be released; can combine with proprietary code |
-| EPLv1 | ✅ Yes | Modified files must be released only if you redistribute them |
-| BSL 1.1 | ✅ Yes (internal) | Free for any non-SaaS use; commercial SaaS requires a license |
+| MIT | ✅ Sim | Manter o aviso de copyright |
+| Apache 2.0 | ✅ Sim | Manter atribuição |
+| GPLv2 / GPLv3 | ✅ Sim | Liberar código-fonte se redistribuir o software |
+| AGPLv3 | ✅ Sim | Liberar código-fonte se expor como serviço de rede a terceiros |
+| LGPLv3 | ✅ Sim | Arquivos modificados da biblioteca devem ser liberados; seu código pode ser privado |
+| MPLv2 | ✅ Sim | Arquivos modificados devem ser liberados; pode combinar com código proprietário |
+| EPLv1 | ✅ Sim | Arquivos modificados devem ser liberados apenas se redistribuídos |
+| BSL 1.1 | ✅ Sim (interno) | Gratuito para uso não-SaaS; SaaS comercial exige licença |
 
 ---
 
-## When NOT to Adopt
+## Quando NÃO Adotar
 
-This catalog is opinionated. That includes being honest about when adopting a tool is *not* the right answer:
+Este catálogo é opinativo. Isso inclui ser honesto sobre quando adotar uma ferramenta *não* é a resposta certa:
 
-- **When the business logic is unique to your company** — a tool built for generic use will never fit a highly specific workflow. Build it.
-- **When the "last mile" requires deep customization** — if you'll spend more time adapting the tool than using it, build something simpler.
-- **When the regulatory context doesn't match** — most OSS tools were built for US/EU markets. Brazilian-specific requirements (NF-e, eSocial, SPED) often require customization that exceeds the cost of building.
-- **When the ownership cost is higher than the build cost** — 20 self-hosted tools means 20 security patches, 20 update cycles, 20 different UX experiences for your team.
+- **Quando a lógica de negócio é única da sua empresa** — uma ferramenta genérica nunca vai servir perfeitamente a um processo altamente específico. Construa.
+- **Quando o "último quilômetro" exige customização profunda** — se você vai gastar mais tempo adaptando a ferramenta do que usando, construa algo mais simples.
+- **Quando o contexto regulatório não bate** — a maioria das ferramentas OSS foi construída para mercados americanos/europeus. Requisitos brasileiros específicos (NF-e, eSocial, SPED) frequentemente exigem customizações que superam o custo de construir.
+- **Quando o custo de ownership supera o custo de construir** — 20 ferramentas self-hosted significam 20 patches de segurança, 20 ciclos de atualização e 20 UX diferentes para o seu time aprender.
 
 ---
 
-## Decision Guide
+## Guia de Decisão
 
-Before adopting a tool from this catalog, ask:
+Antes de adotar uma ferramenta deste catálogo, pergunte:
 
 ```
-1. Is the need generic (time tracking, ticketing, wiki)?
-   → YES: strong candidate for adoption
-   → NO:  consider building something specific
+1. A necessidade é genérica? (controle de ponto, tickets, wiki)
+   → SIM: forte candidato para adoção
+   → NÃO: considere construir algo específico
 
-2. Will a non-technical user be able to operate it after deploy?
-   → NO:  it creates IT dependency — reconsider
+2. Um usuário não-técnico consegue operar após o deploy?
+   → NÃO: cria dependência de TI — reconsidere
 
-3. Does the license allow internal use without restrictions?
-   → Check the license table above
+3. A licença permite uso interno sem restrições?
+   → Consulte a tabela de licenças acima
 
-4. What is the real ownership cost over 2 years?
-   (hosting + security updates + customization + onboarding)
-   → If higher than a simple build: build
+4. Qual é o custo real de ownership em 2 anos?
+   (hospedagem + updates de segurança + customização + onboarding)
+   → Se maior que um build simples: construa
 ```
 
 ---
 
-## Repository Structure
+## Estrutura do Repositório
 
 ```
 /
-├── README.md              # This file (English)
-├── README.pt-BR.md        # Portuguese version
-├── README.es.md           # Spanish version
+├── README.md              # Este arquivo (Português — padrão)
+├── README.en.md           # Versão em inglês
+├── README.es.md           # Versão em espanhol
 ├── catalog/
-│   ├── by-department.md   # Full catalog organized by department
-│   ├── by-tool.md         # A-Z index of all tools with areas served
-│   └── licenses.md        # License details and internal-use implications
+│   ├── by-department.md   # Catálogo completo por área
+│   ├── by-tool.md         # Índice A-Z de ferramentas e áreas
+│   └── licenses.md        # Detalhes de licenças e implicações para uso interno
 ├── decision-guide/
-│   └── adopt-vs-build.md  # Framework for the build vs. adopt decision
+│   └── adopt-vs-build.md  # Framework de decisão adotar vs. construir
 ├── prompts/
-│   ├── CLAUDE.md          # Reusable context block for AI coding agents (English)
-│   ├── CLAUDE.pt-BR.md    # Same, in Portuguese
-│   └── CLAUDE.es.md       # Same, in Spanish
-├── CONTRIBUTING.md        # How to suggest new tools or areas
-└── LICENSE                # CC BY 4.0 — applies to catalog content
+│   ├── CLAUDE.md          # Contexto reutilizável para agentes de IA (inglês)
+│   ├── CLAUDE.pt-BR.md    # O mesmo, em português
+│   └── CLAUDE.es.md       # O mesmo, em espanhol
+├── CONTRIBUTING.md        # Como sugerir novas ferramentas ou áreas
+└── LICENSE                # CC BY 4.0 — aplica-se ao conteúdo do catálogo
 ```
 
 ---
 
-## Contributing
+## Como Contribuir
 
-This catalog improves with real-world experience. See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to:
+Este catálogo melhora com experiência do mundo real. Veja [CONTRIBUTING.md](CONTRIBUTING.md) para aprender como:
 
-- Suggest a new tool for an existing area
-- Propose a new corporate area
-- Report a tool that no longer meets the criteria
-- Share your own adoption experience
-
----
-
-## License
-
-This repository (the catalog content itself) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you are free to share and adapt it, with attribution.
-
-Each tool listed has its own license. Always verify the license before deploying in your organization.
+- Sugerir uma nova ferramenta para uma área existente
+- Propor uma nova área corporativa
+- Reportar uma ferramenta que não atende mais aos critérios
+- Compartilhar sua própria experiência de adoção
 
 ---
 
-*Built from real-world experience managing internal tools across a multi-product company. No vendor relationships. No sponsorships. Just honest curation.*
+## Licença
+
+Este repositório (o conteúdo do catálogo em si) está licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — você pode compartilhar e adaptar, com atribuição.
+
+Cada ferramenta listada tem sua própria licença. Sempre verifique a licença antes de fazer deploy na sua organização.
+
+---
+
+*Construído a partir de experiência real gerenciando ferramentas internas em uma empresa multi-produto. Sem relações com fornecedores. Sem patrocínios. Apenas curadoria honesta.*
