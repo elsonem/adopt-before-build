@@ -1,0 +1,9 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+
+# Source/working files (kept out of the public repo)
+*.xlsx
